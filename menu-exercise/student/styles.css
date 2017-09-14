@@ -3,3 +3,100 @@
   Insert Galaxy Menu styles here to recreate the look of galaxy-restaurant-menu.pdf.
 
 */
+body {
+  width: 80%;
+  margin: 20px auto;
+  background-color: #ffffff;
+}
+header {
+  background-color: #E5A300;
+  width: 90%;
+  margin: 0 auto;
+  text-align: center;
+  padding: 20px;
+  font-size: 85%;
+}
+#container {
+  width: 90%;
+  margin: 0 auto;
+  padding: 0;
+  background-color: #F5FFEF;
+  position: relative;
+}
+
+main > section {
+  border: 3px solid #E5A300;
+  margin: 15px 5%;
+  position: relative;
+  overflow: hidden;
+  padding: 10px;
+}
+
+.features div, .desserts div {
+  width: 49%;
+  margin: 1px;
+  float: left;
+  text-align: center;
+  padding: 10px;
+}
+
+.combo-deal div {
+  width: 33%;
+  margin: 1px;
+  float: left;
+  text-align: center;
+  padding: 10px;
+}
+
+.desserts div {
+  position: relative;
+}
+
+.features h2, .combo-deal h2 {
+  text-align: center;
+  text-decoration: underline;
+  padding: 20px;
+}
+
+
+.desserts h2 {
+  background-color: #ffffff;
+  border-radius: 10px;
+  border: 3px dashed #784707;
+  text-align: center;
+  padding: 10px;
+  position: absolute;
+  width: 150px;
+  height: 80px;
+  margin-left: -75px;
+  margin-top: -40px;
+  top: 50%;
+  left: 50%;
+  z-index: 1;
+}
+
+.desserts h4 {
+  background-color: #000000;
+  color: #ffffff;
+  text-align: center;
+  padding: 5px;
+  position: absolute;
+  right: 30px;
+  top: 30px;
+}
+
+section h3 {
+  text-align: center;
+  padding: 5px;
+}
+
+footer {
+  background-color: #74B26C;
+  color: #ffffff;
+  border: 5px solid #ffffff;
+  padding: 10px 20px;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 100px;
+}
